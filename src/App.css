@@ -1,0 +1,302 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+/* home page */
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navigationSection {
+    display: flex;
+    flex: 1 auto;
+    margin-top: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderSection {
+    background-image: url(https://media.istockphoto.com/id/1253186607/vector/abstract-white-gray-color-background-with-round-liquid-shape-vector-illustration.jpg?s=612x612&w=0&k=20&c=DcRAR-_TCrVIOLOkJLhsdmtNH1pUPe5I2e8Wv9ijOHg=);
+    flex: 1;
+    width: 100%;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+}
+
+
+
+/* navbar */
+.navbar {
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: cursive;
+  box-sizing: border-box;
+  z-index: 9999;
+  border-bottom: 2px solid #5a5454;
+  height: 80px; 
+
+}
+
+.navTitle {
+    list-style-type: none;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 50px;
+    text-shadow: 2px 1px 0px #ec0aec;
+}
+
+.navTitle li {
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.navLinks {
+    display: flex;
+  justify-content: flex-end; 
+  margin-right: 50px; 
+    list-style: none;
+}
+
+.navLink {
+    margin-right: 3rem;
+    font-size: 1.1rem;
+}
+
+/* Menu page */
+
+.filterSection {
+    border: 2px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 100px;
+
+}
+
+.filterSection input {
+    padding: 8px;
+    text-align: center;
+    border-radius: 18px;
+    font-family: sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemCard {
+    height: 370px;
+    width: 270px;
+    margin: 25px;
+    border: 1.5px solid grey;
+    font-family: cursive;
+    background-image: url(https://media.istockphoto.com/id/1253186607/vector/abstract-white-gray-color-background-with-round-liquid-shape-vector-illustration.jpg?s=612x612&w=0&k=20&c=DcRAR-_TCrVIOLOkJLhsdmtNH1pUPe5I2e8Wv9ijOHg=);
+    border-top-right-radius: 35px;
+    border-top-left-radius: 13px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.imageSection img {
+    height: 220px;
+    width: 270px;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 35px;
+
+}
+
+.detailsSection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.itemName {
+    font-size: 21.5px;
+    color: #020202;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-left: 4px;
+
+}
+
+.itemPrice {
+    font-size: 21.5px;
+    color: #020202;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-right: 2px;
+}
+
+.itemDescription {
+    font-size: 15px;
+    color: #5c4949;
+    margin: 5px 4px 0px 4px;
+    font-weight: 500;
+    font-family: system-ui;
+
+
+}
+
+.deliveryTime {
+    margin-top: 20px;
+
+}
+
+.addToCartBtn {
+    padding: 0px 50px 0px 12px;
+    background: hsl(36.2deg 100% 52.55%);
+    border-top-left-radius: 25px;
+    color: white;
+    font-size: 39px;
+    cursor: pointer;
+    border-bottom: 1.5px solid grey;
+
+}
+
+/* Cart Section */
+.cartHeading {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.cartHeader {
+    font-family: system-ui;
+    font-size: x-large;
+    display: block;
+    width: fit-content;
+    border-radius: 12px;
+}
+
+.couponBtn {
+    transform: translateY(-20px);
+    border-radius: 10px;
+    padding: 5px;
+    background: #060603;
+    color: white;
+    font-weight: 600;
+    font-family: unset;
+}
+
+.itemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 18.5px;
+    font-weight: 400;
+
+
+}
+
+.CartItem {
+    display: flex;
+    border: 2px solid #5a5454;
+    width: 750px;
+    border-radius: 15px;
+    margin: 15px;
+    background-image: url(https://media.istockphoto.com/id/1253186607/vector/abstract-white-gray-color-background-with-round-liquid-shape-vector-illustration.jpg?s=612x612&w=0&k=20&c=DcRAR-_TCrVIOLOkJLhsdmtNH1pUPe5I2e8Wv9ijOHg=)
+}
+
+.imgSection img {
+    height: -webkit-fill-available;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.imgSection {}
+
+.infoSection {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    margin-left: 5px;
+
+}
+
+.itemVariables {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.deleteBtn {
+    cursor: pointer;
+    padding: 15px;
+}
+
+.decrementBtn {
+    cursor: pointer;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.incrementBtn {
+    cursor: pointer;
+    font-size: 15px;
+    margin: 5px;
+}
+
+/* //Home section slider */
+
+.sliderCard {
+    width: 100%;
+    height: 200px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderSection {
+    background-image: url(https://media.istockphoto.com/id/1253186607/vector/abstract-white-gray-color-background-with-round-liquid-shape-vector-illustration.jpg?s=612x612&w=0&k=20&c=DcRAR-_TCrVIOLOkJLhsdmtNH1pUPe5I2e8Wv9ijOHg=);
+    flex: 1;
+    width: 100%;
+    border-top-right-radius: 125%;
+    border-top-left-radius: 125%;
+}
+
+.MenuBtn {
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    text-shadow: 3px 2px 3px #050005;
+    font-family: Georgia;
+    color: #f7f7f7;
+    font-size: 20px;
+    background: #ed0970;
+    padding: 10px;
+    border: solid #000203 3px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 50px 50px;
+}
+
+.MenuBtn:hover {
+    background: #d909a8;
+    text-decoration: none;
+}
