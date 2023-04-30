@@ -1,8 +1,10 @@
 import { NavLink } from "react-router-dom";
 import Carousel from 'react-elastic-carousel';
 import { SliderCard } from "../components/SliderCard";
-
-
+import img1 from "../Images/slider-img1.png";
+import img2 from "../Images/slider-img2.png";
+import img3 from "../Images/slider-img3.png";
+import img4 from "../Images/slider-img4.png";
 
 export const Home = () => {
 
@@ -30,18 +32,18 @@ export const Home = () => {
        showArrows={true}
         pagination={false}
        >
-     <SliderCard location="..\src\assests\slider-img1.png"/>
-      <SliderCard location="..\src\assests\slider-img2.png"/>
-      <SliderCard location="..\src\assests\slider-img3.png"/>
-      <SliderCard location="..\src\assests\slider-img4.png"/>
-      <SliderCard location="..\src\assests\slider-img1.png"/>
-      <SliderCard location="..\src\assests\slider-img2.png"/>
-      <SliderCard location="..\src\assests\slider-img3.png"/>
-      <SliderCard location="..\src\assests\slider-img4.png"/>
-      <SliderCard location="..\src\assests\slider-img1.png"/>
-      <SliderCard location="..\src\assests\slider-img2.png"/>
-      <SliderCard location="..\src\assests\slider-img3.png"/>
-      <SliderCard location="..\src\assests\slider-img4.png"/>
+     <SliderCard location={img1}/>
+      <SliderCard location={img2}/>
+      <SliderCard location={img3}/>
+      <SliderCard location={img4}/>
+      <SliderCard location={img1}/>
+      <SliderCard location={img2}/>
+      <SliderCard location={img3}/>
+      <SliderCard location={img4}/>
+      <SliderCard location={img1}/>
+      <SliderCard location={img2}/>
+      <SliderCard location={img3}/>
+      <SliderCard location={img4}/>
      </Carousel>
       </div>
     </div>
