@@ -16,7 +16,7 @@ export const Navbar = () => {
     <>
       <div className="navbar">
         <ul className="navTitle">
-          <li>Bitecard</li>
+          <li>BiteCart</li>
         </ul>
         <ul className="navLinks">
           <li className="navLink">
